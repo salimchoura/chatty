@@ -1,0 +1,53 @@
+/** Author: Salim Choura
+*   Course: csc337
+*   Description: This file provides styling for chatty website.
+*/
+
+#top {
+    height: 70vh;
+    background-color: rgb(122, 203, 143);
+    overflow-y: scroll;
+}
+
+#bottom {
+    height: 30vh;
+    background-color: rgb(13, 71, 14);
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    position: relative;
+    margin-left: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+button {
+    position: relative;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+input {
+    font-size: 30px;
+    position: relative;
+    margin-left: 5px;
+}
+
+.alias {
+    color: rgb(49, 49, 49);
+    margin-left: 50px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.message {
+    font-size: 35px;
+}
